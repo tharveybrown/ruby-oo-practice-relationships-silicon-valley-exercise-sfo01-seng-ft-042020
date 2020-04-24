@@ -39,6 +39,3 @@ funding_b = FundingRound.new(startup_c, vc_a, "Seed A", 50999)
 funding_c = FundingRound.new(startup_c, vc_a, "Seed A", 500777)
 funding_d = FundingRound.new(startup_b, vc_a, "Seed A", 50000)
 funding_e = FundingRound.new(startup_b, vc_a, "Seed A", 50000)
-
-
-# binding.pry

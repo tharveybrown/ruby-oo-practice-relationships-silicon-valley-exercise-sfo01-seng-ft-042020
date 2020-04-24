@@ -27,8 +27,6 @@ class Startup
 
     def self.domains
         @@all.map {|startup| startup.domain}
-        # binding.pry
-        
     end
 
     def sign_contract(venture_capitalist, type, amount)
@@ -68,5 +66,3 @@ class Startup
     end
 
 end
-
-Startup.domains
